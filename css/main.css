@@ -54,12 +54,17 @@ html {
 }
 
 .cards a {
-  display: inline-block
+  display: inline-block;
   padding:.5em .75em;
   background-color: #ccc;
   border-radius: 4px;
   color: #000;
   text-decoration: none;
+}
+
+.cards a:hover {
+  background-color: #333;
+  color: #fff;
 }
 *, *::before, *::after {
   box-sizing: inherit;
